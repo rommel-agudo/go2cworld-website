@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name ="description" content="amsterdam weather">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Go 2C World</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Go 2C World.</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="country.html" class="nav-link">Country</a>
+                </li>
+                <li class="nav-item">
+                    <a href="town.html" class="nav-link">Town</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contactus.html" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+	
+	<main class = "main_weather">
+	
+		<h1 id="weatherline1">Amsterdam | Weather </h1>
+        <p id="weatherline2"> Rain before seven, fine by eleven </p>
+		
+
+
+        <form action="town.html" method="POST">
+            <input type="text" name="text" class="search" placeholder="Find towns here!">
+            <input type="submit" name="submit" class="submit" value="Search">
+        </form>
+		
+		
+		
+
+	
+	<a class="weatherwidget-io" href="https://forecast7.com/en/52d374d90/amsterdam/" data-label_1="AMSTERDAM" data-label_2="WEATHER" data-theme="original" >AMSTERDAM WEATHER</a>
+		<script>
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+		</script>	
+	
+	</main>
+	
+	<aside class = "weather_aside">
+        <p id = "title_aside"> What is the best time of year to visit Amsterdam? </p>
+		
+		<p>The Netherlands has a mild climate typical to Northern Europe, similar to that of the United Kingdom. As a result, summers in Amsterdam are generally warm with occasional colder periods, while Amsterdam winters are fairly cold with rain, wind and some snow.</p>
+		
+        <p>Occasionally temperatures can dip to below freezing in winter. Rain can be expected throughout the entire year, with spring generally being the driest season.</p> 
+		
+		<p>Many people prefer to visit Amsterdam in spring or summer months (May to September), although winter in Amsterdam has its own magic, when the canals glow in fairy lights and the city's cosy pubs and restaurants offer solace from the weather outside.  </p>
+		
+	
+    </aside>
+	
+	<section>
+			<p id = "weekdeal" > Relax… You’re with us! We make it simple. </p>
+			<div id="wrapper">
+				
+				<figure>
+				  <a href="accomodations.html"><img id="deals" src="images/yellowhotel.jpg" alt="wagon"></a><br>
+				  <figcaption><h2> Cheap but trendy hotels  </h2> </figcaption><br>
+				  <figcaption> Whether you’re staying for a day or a month, find cheap hostels and hotels in Amsterdam that mix cool, contemporary design and historical charm.  </figcaption>
+				</figure>
+				
+				<figure>
+				  <a href="restaurants.html"><img id="deals" src="images/rijks.jpg" alt="cherry"></a><br>
+				  <figcaption><h2> Best Dutch food restaurants  </h2> </figcaption><br>
+				  <figcaption> Beyond the windmills and tulips the Netherlands has another cultural wonder to experience: its cuisine.</figcaption> 
+				</figure>
+			  
+				<figure>
+				  <a href="activities.html"><img id="deals" src="images/cycle.jpg" alt="cherry"></a><br>
+				  <figcaption><h2> Amsterdam's hidden gems  </h2> </figcaption><br>
+				  <figcaption>From secret garden cafes and obscure music venues to rooftop bars and a museum in an underground bank vault, here’s our round-up of the city’s best-hidden gems. </figcaption>
+				</figure>
+			</div>
+	</section>		
+	
+	<footer>
+	
+		<div class="contactus">
+			<h2 class="h2-homepage">Contact Us</h2><br>
+			<p>+012 345 6789</p>
+			<p><a href="https://www.google.com/maps/place/11+Gill+Street">11 Gill Street</a></p>
+			<p><a href="https://www.google.com/maps/place/New+Plymouth">New Plymouth 4310, New Zealand</a></p>
+		</div>
+		<br>
+		<div class="newsletter">
+			<h2 class="h2-homepage">Newsletter</h2><br>
+			<p>Sign up so we can keep you update with wonderful places to discover</p>
+			<div class="email">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" required>
+				<input type="submit" value="Sign Up"><br>
+				<br>
+			</div>
+		</div>
+		
+		<div class="follow">
+			<h2 class="h2-homepage">Follow Us</h2><br>
+			<p>Facebook</p>
+			<p>Twitter</p>
+			<p>Instagram</p>
+		</div>
+		
+		<span class="copyright">&copyGO 2C World 2022</span>
+		
+    </footer>
+	
+</body>
+<script src="main.js"></script>
+</html>
